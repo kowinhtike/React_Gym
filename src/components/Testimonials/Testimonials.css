@@ -1,0 +1,52 @@
+.Testimonials{
+    display: flex;
+    gap:1rem;
+    padding:0 2rem;
+    justify-content: space-around;
+}
+.left-t{
+    display: flex;
+    flex: 1 1;
+    gap:2rem;
+    color:white;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+.left-t>:nth-child(1){
+    color:var(--orange);
+    font-weight: bold;
+}
+.left-t>:nth-child(2),.left-t>:nth-child(3){
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.left-t>:nth-child(4){
+    text-align: justify;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.right-t{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 600px;
+    padding-bottom: 50px;
+}
+
+.right-t img{
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 100px;
+    cursor: pointer;
+    
+}
+
+.right-t div img{
+width: 30px;
+height: auto;
+margin: 15px;
+}

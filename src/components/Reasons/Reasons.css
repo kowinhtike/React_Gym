@@ -1,0 +1,57 @@
+.Reasons{
+    padding:0.2rem;
+    display: flex;
+    align-items: center;
+    gap:3rem;
+}
+.left-r{
+  display: flex;   
+}
+.p-left img{
+    height: 25rem;
+    width: 10rem;
+    margin:4px;
+}
+.p-right img{
+    height: 12.5rem;
+    margin:4px;
+    margin-top: 0;
+}
+.right-r>span{
+    color:var(--orange)
+}
+.text-zone{
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.details-r{
+    color:white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.details-r div{
+    display: flex;
+    align-items: center;
+    gap:1rem;
+    text-transform: uppercase;
+}
+.details-r img{
+    width: 30px;
+}
+.partners{
+    display: flex;
+    gap:1rem;
+}
+.partners img{
+    width: 50px;
+}
+.partners-name{
+    color:grey;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
